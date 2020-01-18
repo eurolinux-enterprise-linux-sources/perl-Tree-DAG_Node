@@ -1,6 +1,6 @@
 Name:           perl-Tree-DAG_Node
 Version:        1.12
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Class for representing nodes in a tree
 Group:          Development/Libraries
 License:        Artistic 2.0
@@ -43,6 +43,9 @@ make test
 %{_mandir}/man3/Tree::DAG_Node.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.12-2
+- Mass rebuild 2013-12-27
+
 * Wed Jul  3 2013 Paul Howarth <paul@city-fan.org> - 1.12-1
 - Update to 1.12
   - Change text in README referring to licence to match text in body of source,
